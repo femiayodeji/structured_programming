@@ -1,0 +1,13 @@
+C:\workspace\c#\structured_programming\Singleton\bin\Debug\netcoreapp3.1\Singleton.exe
+C:\workspace\c#\structured_programming\Singleton\bin\Debug\netcoreapp3.1\Singleton.deps.json
+C:\workspace\c#\structured_programming\Singleton\bin\Debug\netcoreapp3.1\Singleton.runtimeconfig.json
+C:\workspace\c#\structured_programming\Singleton\bin\Debug\netcoreapp3.1\Singleton.runtimeconfig.dev.json
+C:\workspace\c#\structured_programming\Singleton\bin\Debug\netcoreapp3.1\Singleton.dll
+C:\workspace\c#\structured_programming\Singleton\bin\Debug\netcoreapp3.1\Singleton.pdb
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.csprojAssemblyReference.cache
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.csproj.CoreCompileInputs.cache
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.AssemblyInfoInputs.cache
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.AssemblyInfo.cs
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.dll
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.pdb
+C:\workspace\c#\structured_programming\Singleton\obj\Debug\netcoreapp3.1\Singleton.genruntimeconfig.cache
