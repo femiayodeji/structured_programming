@@ -1,0 +1,13 @@
+C:\workspace\c#\structured_programming\solid_principles\bin\Debug\netcoreapp3.1\solid_principles.exe
+C:\workspace\c#\structured_programming\solid_principles\bin\Debug\netcoreapp3.1\solid_principles.deps.json
+C:\workspace\c#\structured_programming\solid_principles\bin\Debug\netcoreapp3.1\solid_principles.runtimeconfig.json
+C:\workspace\c#\structured_programming\solid_principles\bin\Debug\netcoreapp3.1\solid_principles.runtimeconfig.dev.json
+C:\workspace\c#\structured_programming\solid_principles\bin\Debug\netcoreapp3.1\solid_principles.dll
+C:\workspace\c#\structured_programming\solid_principles\bin\Debug\netcoreapp3.1\solid_principles.pdb
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.csprojAssemblyReference.cache
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.csproj.CoreCompileInputs.cache
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.AssemblyInfoInputs.cache
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.AssemblyInfo.cs
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.dll
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.pdb
+C:\workspace\c#\structured_programming\solid_principles\obj\Debug\netcoreapp3.1\solid_principles.genruntimeconfig.cache
