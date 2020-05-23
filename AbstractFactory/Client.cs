@@ -30,3 +30,26 @@ public class DelicateFactory : PackageAndDeliveryFactory
         return new Courier();
     }
 }
+
+//client 
+public class Client
+{
+    private Packing _packaging;
+    private DeliveryDocument _deliveryDocument;
+    public Client(PackageAndDeliveryFactory factory)
+    {
+        _packaging = factory.CreatePackaging();
+        _deliveryDocument = factory.CreateDeliveryDocument();
+    }
+
+    public Packing ClientPackaging{
+        get {
+            return _packaging;
+        }
+    }
+    public DeliveryDocument ClientDocument{
+        get {
+            return _deliveryDocument;
+        }
+    }
+}
