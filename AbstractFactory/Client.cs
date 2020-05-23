@@ -1,7 +1,7 @@
 //concrete classes
-public abstract class Packing{}
-public class StandardPacking : Packing{}
-public class ShockProofPacking : Packing{}
+public abstract class Packaging{}
+public class StandardPackaging : Packaging{}
+public class ShockProofPackaging : Packaging{}
 public abstract class DeliveryDocument{}
 public class Postal : DeliveryDocument{}
 public class Courier : DeliveryDocument{}
@@ -9,13 +9,13 @@ public class Courier : DeliveryDocument{}
 //Factory classes
 public abstract class PackageAndDeliveryFactory
 {
-    public abstract Packing CreatePackaging();
+    public abstract Packaging CreatePackaging();
     public abstract DeliveryDocument CreateDeliveryDocument();
 }
 public class StandardFactory : PackageAndDeliveryFactory
 {
-    public override Packing CreatePackaging(){
-        return new StandardPacking();
+    public override Packaging CreatePackaging(){
+        return new StandardPackaging();
     }
     public override DeliveryDocument CreateDeliveryDocument(){
         return new Postal();
@@ -23,8 +23,8 @@ public class StandardFactory : PackageAndDeliveryFactory
 }
 public class DelicateFactory : PackageAndDeliveryFactory
 {
-    public override Packing CreatePackaging(){
-        return new ShockProofPacking();
+    public override Packaging CreatePackaging(){
+        return new ShockProofPackaging();
     }
     public override DeliveryDocument CreateDeliveryDocument(){
         return new Courier();
@@ -34,7 +34,7 @@ public class DelicateFactory : PackageAndDeliveryFactory
 //client 
 public class Client
 {
-    private Packing _packaging;
+    private Packaging _packaging;
     private DeliveryDocument _deliveryDocument;
     public Client(PackageAndDeliveryFactory factory)
     {
@@ -42,7 +42,7 @@ public class Client
         _deliveryDocument = factory.CreateDeliveryDocument();
     }
 
-    public Packing ClientPackaging{
+    public Packaging ClientPackaging{
         get {
             return _packaging;
         }
