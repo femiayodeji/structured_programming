@@ -1,0 +1,13 @@
+C:\workspace\c#\structured_programming\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.exe
+C:\workspace\c#\structured_programming\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.deps.json
+C:\workspace\c#\structured_programming\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.runtimeconfig.json
+C:\workspace\c#\structured_programming\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.runtimeconfig.dev.json
+C:\workspace\c#\structured_programming\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.dll
+C:\workspace\c#\structured_programming\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.pdb
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.csprojAssemblyReference.cache
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.AssemblyInfoInputs.cache
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.AssemblyInfo.cs
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.dll
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.pdb
+C:\workspace\c#\structured_programming\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.genruntimeconfig.cache
