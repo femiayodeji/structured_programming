@@ -3,5 +3,8 @@ public sealed class ApplicationState
     private static ApplicationState instance = null;
     //State Information
     public string LoginId { get; set; }
-    public string RoleId { get; set; }   
+    public string RoleId { get; set; }
+
+    private ApplicationState() {}
+    
 }
