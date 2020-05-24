@@ -1,4 +1,4 @@
-public sealed class ApplicationState
+public class ApplicationState
 {
     private static ApplicationState instance = null;
     //State Information
