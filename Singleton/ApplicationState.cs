@@ -9,5 +9,12 @@ public sealed class ApplicationState
     
     //Lock Object
     private static object lockThis = new object();
-    
+    public static ApplicationState GetState(){
+        lock(lockThis){
+            if(ApplicationState.instance == null){
+                instance = new ApplicationState();
+            }
+        }
+        return instance;
+    }
 }
