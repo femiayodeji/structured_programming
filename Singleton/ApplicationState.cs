@@ -7,4 +7,7 @@ public sealed class ApplicationState
 
     private ApplicationState() {}
     
+    //Lock Object
+    private static object lockThis = new object();
+    
 }
