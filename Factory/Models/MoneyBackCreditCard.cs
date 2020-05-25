@@ -1,4 +1,4 @@
-namespace Factory.Models
+﻿namespace Factory.Models
 {
     // concrete product
     public class MoneyBackCreditCard : CreditCard
