@@ -1,5 +1,6 @@
 namespace Factory.Models
 {
+    // concrete product
     public class Titanium : CreditCard
     {
         private readonly string _cardType;

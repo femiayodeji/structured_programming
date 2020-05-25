@@ -1,5 +1,6 @@
 namespace Factory.Models
 {
+    // concrete product
     public class MoneyBack : CreditCard
     {
         private readonly string _creditType;   

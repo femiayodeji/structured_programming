@@ -1,5 +1,6 @@
 namespace Factory.Models
 {
+    // concrete product
     public class Platinum : CreditCard
     {
         private readonly string _cardType;

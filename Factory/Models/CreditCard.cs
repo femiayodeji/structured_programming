@@ -1,5 +1,6 @@
 namespace Factory.Models
 {
+    // product
     public abstract class CreditCard
     {
         public abstract string CardType { get;}
