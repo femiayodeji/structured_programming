@@ -1,13 +1,13 @@
 namespace Factory.Models
 {
     // concrete product
-    public class MoneyBack : CreditCard
+    public class MoneyBackCreditCard : CreditCard
     {
         private readonly string _creditType;   
         private int _creditLimit;
         private int _annualCharge;
 
-        public MoneyBack(int creditLimit, int annualCharge)
+        public MoneyBackCreditCard(int creditLimit, int annualCharge)
         {
             _creditType = "MoneyBack";
             _creditLimit = creditLimit;
