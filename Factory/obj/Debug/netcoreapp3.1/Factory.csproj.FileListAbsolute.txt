@@ -1,0 +1,13 @@
+C:\workspace\c#\structured_programming\Factory\bin\Debug\netcoreapp3.1\Factory.exe
+C:\workspace\c#\structured_programming\Factory\bin\Debug\netcoreapp3.1\Factory.deps.json
+C:\workspace\c#\structured_programming\Factory\bin\Debug\netcoreapp3.1\Factory.runtimeconfig.json
+C:\workspace\c#\structured_programming\Factory\bin\Debug\netcoreapp3.1\Factory.runtimeconfig.dev.json
+C:\workspace\c#\structured_programming\Factory\bin\Debug\netcoreapp3.1\Factory.dll
+C:\workspace\c#\structured_programming\Factory\bin\Debug\netcoreapp3.1\Factory.pdb
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.csprojAssemblyReference.cache
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.csproj.CoreCompileInputs.cache
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.AssemblyInfoInputs.cache
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.AssemblyInfo.cs
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.dll
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.pdb
+C:\workspace\c#\structured_programming\Factory\obj\Debug\netcoreapp3.1\Factory.genruntimeconfig.cache
