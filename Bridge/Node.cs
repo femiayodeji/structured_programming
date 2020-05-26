@@ -14,4 +14,9 @@ namespace Bridge
     {
         public string Reach() => "Reached to node B";
     }
+
+    public class NodeBridge
+    {
+        public string Reach(INode node) => node.Reach();
+    }
 }
