@@ -25,7 +25,13 @@ namespace Prototype
                 i++;
             }
 
-            // Print all invitation card 
+            // Print original invitation card 
+            Console.WriteLine("To: {0}",invitationCard.To);
+            Console.WriteLine("Title: {0}",invitationCard.Title);
+            Console.WriteLine("Content: {0}",invitationCard.Content);
+            Console.WriteLine("Date: {0}",invitationCard.Date);
+
+            // Print all copies of invitation card 
             foreach(InvitationCard guest in guests){
                 Console.WriteLine("To: {0}",guest.To);
                 Console.WriteLine("Title: {0}",guest.Title);
