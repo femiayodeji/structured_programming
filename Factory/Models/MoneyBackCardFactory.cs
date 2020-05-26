@@ -1,18 +1,19 @@
-namespace Factory.Models
+﻿namespace Factory.Models
 {
-    public class TitaniumFactory : CardFactory
+    // concrete creator
+    public class MoneyBackCardFactory : CardFactory
     {
         private int _creditLimit;
         private int _annualCharge;
-        
-        public TitaniumFactory(int creditLimit, int annualCharge)
+
+        public MoneyBackCardFactory(int creditLimit, int annualCharge)
         {
             _creditLimit = creditLimit;
             _annualCharge = annualCharge;
         }
 
         public override CreditCard GetCreditCard(){
-            return new TitaniumCreditCard(_creditLimit, _annualCharge);
+            return new MoneyBackCreditCard(_creditLimit, _annualCharge);
         }
     }
 }
