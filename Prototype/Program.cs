@@ -30,6 +30,7 @@ namespace Prototype
             Console.WriteLine("Title: {0}",invitationCard.Title);
             Console.WriteLine("Content: {0}",invitationCard.Content);
             Console.WriteLine("Date: {0}",invitationCard.Date);
+            Console.WriteLine("--------");               
 
             // Print all copies of invitation card 
             foreach(InvitationCard guest in guests){
