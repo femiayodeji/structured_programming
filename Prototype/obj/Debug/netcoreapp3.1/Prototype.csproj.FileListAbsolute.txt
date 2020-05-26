@@ -1,0 +1,13 @@
+C:\workspace\c#\structured_programming\Prototype\bin\Debug\netcoreapp3.1\Prototype.exe
+C:\workspace\c#\structured_programming\Prototype\bin\Debug\netcoreapp3.1\Prototype.deps.json
+C:\workspace\c#\structured_programming\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.json
+C:\workspace\c#\structured_programming\Prototype\bin\Debug\netcoreapp3.1\Prototype.runtimeconfig.dev.json
+C:\workspace\c#\structured_programming\Prototype\bin\Debug\netcoreapp3.1\Prototype.dll
+C:\workspace\c#\structured_programming\Prototype\bin\Debug\netcoreapp3.1\Prototype.pdb
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.csprojAssemblyReference.cache
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.csproj.CoreCompileInputs.cache
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfoInputs.cache
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.AssemblyInfo.cs
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.dll
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.pdb
+C:\workspace\c#\structured_programming\Prototype\obj\Debug\netcoreapp3.1\Prototype.genruntimeconfig.cache
