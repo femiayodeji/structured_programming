@@ -22,4 +22,12 @@ namespace Decorator
             Console.Write(" with Sound System");
         }
     }
+
+    public class ACAndSoundSystemCar : ACCar
+    {
+        public override void CarType(){
+            base.CarType();
+            Console.WriteLine(" with Sound System");
+        }
+    }
 }

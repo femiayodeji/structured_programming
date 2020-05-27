@@ -8,6 +8,11 @@ namespace Decorator
         {
             Console.WriteLine("DECORATOR DESIGN PATTERN\n");
 
+            Car car = new Car();
+            car.CarType();
+
+            Console.WriteLine("\n--------");
+
             Car acCar = new ACCar();
             acCar.CarType();
 
@@ -15,6 +20,11 @@ namespace Decorator
 
             Car soundSystemCar = new SoundSystemCar();
             soundSystemCar.CarType();
+
+            Console.WriteLine("\n--------");
+
+            Car acAndSoundSystemCar = new ACAndSoundSystemCar();
+            acAndSoundSystemCar.CarType();
         }
     }
 }
