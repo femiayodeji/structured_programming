@@ -1,17 +1,25 @@
+using System;
+
 namespace Decorator
 {
     public class Car
     {
-        public virtual string CarType() => "Simple car";
+        public virtual void CarType() => Console.Write("Simple car");
     }
 
     public class ACCar : Car 
     {
-        public override string CarType() => "AC Car";
+        public override void CarType(){
+            base.CarType();
+            Console.Write(" with AC");
+        }
     }
 
     public class SoundSystemCar : Car
     {
-        public override string CarType() => "Sound system car";
+        public override void CarType(){
+            base.CarType();
+            Console.Write(" with Sound System");
+        }
     }
 }

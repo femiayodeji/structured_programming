@@ -9,10 +9,12 @@ namespace Decorator
             Console.WriteLine("DECORATOR DESIGN PATTERN\n");
 
             Car acCar = new ACCar();
-            Console.WriteLine(acCar.CarType());
+            acCar.CarType();
+
+            Console.WriteLine("\n--------");
 
             Car soundSystemCar = new SoundSystemCar();
-            Console.WriteLine(soundSystemCar.CarType());
+            soundSystemCar.CarType();
         }
     }
 }
