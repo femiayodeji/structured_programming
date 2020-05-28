@@ -4,6 +4,7 @@ namespace Composite
 {
     public interface IEmployee
     {
+        IEmployee Head { get; set; }
         void ShowDetails();
     }    
     public class CEO : IEmployee
@@ -14,16 +15,21 @@ namespace Composite
         {
             this.Name = name;
         }
-        public virtual void ShowDetails(){
+        public void ShowDetails(){
             Console.WriteLine("{0} - {1}.", Name, Designation);
         }
     }
 
-    public class HeadManager1 : CEO, IEmployee
+    public class HeadManager : IEmployee
     {
-        public override string Name { get; set; }
-        public override void Designation(){
-            Console.WriteLine("{0} - The Head Manager 1 of the company.", Name);
+        private string Name { get; set; }
+        private string Designation = "The Head Manager of the company";
+        public HeadManager(string name)
+        {
+            this.Name = name;
+        }
+        public void ShowDetails(){
+            Console.WriteLine("{0} - {1}.", Name, Designation);
         }
     }
 
