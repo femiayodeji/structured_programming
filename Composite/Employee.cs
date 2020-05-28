@@ -4,13 +4,14 @@ namespace Composite
 {
     public interface IEmployee
     {
-        IEmployee Head { get; set; }
+        IEmployee Head { get;}
         void ShowDetails();
     }    
     public class CEO : IEmployee
     {
-        private string Name { get; set; }
-        private string Designation = "The Chief Executive of the company";
+        public string Name { get; set; }
+        public string Designation = "The Chief Executive of the company";
+        public IEmployee Head { get => }
         public CEO(string name)
         {
             this.Name = name;
