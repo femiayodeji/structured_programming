@@ -26,4 +26,11 @@ namespace Composite
             Console.WriteLine("The head Manager 2 of the company.");
         }
     }
+
+    public class AreaManager : HeadManager1, IEmployee
+    {
+        public override void Designation(){
+            Console.WriteLine("The Area Manager under the HM1");
+        }
+    }
 }
