@@ -11,7 +11,8 @@ namespace Composite
     {
         public string Name { get; set; }
         public string Designation = "The Chief Executive of the company";
-        public IEmployee Head { get => }
+        private IEmployee DirectSuperior = null;
+        public IEmployee Head { get => DirectSuperior;}
         public CEO(string name)
         {
             this.Name = name;
@@ -23,22 +24,19 @@ namespace Composite
 
     public class HeadManager : IEmployee
     {
-        private string Name { get; set; }
-        private string Designation = "The Head Manager of the company";
-        public HeadManager(string name)
+        public string Name { get; set; }
+        public string Office { get; set; }
+        public string Designation { get => "Head Manager " +  Office; }
+        private IEmployee DirectSuperior;
+        public IEmployee Head { get => DirectSuperior;}
+        public HeadManager(string name, string office, IEmployee head)
         {
             this.Name = name;
+            this.Office = office;
+            this.DirectSuperior = head;
         }
         public void ShowDetails(){
             Console.WriteLine("{0} - {1}.", Name, Designation);
-        }
-    }
-
-    public class HeadManager2 : CEO, IEmployee
-    {
-        public override string Name { get; set; }
-        public override void Designation(){
-            Console.WriteLine("{0} - The head Manager 2 of the company.", Name);
         }
     }
 
