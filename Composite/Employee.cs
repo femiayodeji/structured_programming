@@ -9,8 +9,14 @@ namespace Composite
     public class CEO : IEmployee
     {
         public virtual void Designation(){
-            Console.WriteLine("This is the Chief Executive of the company.");
+            Console.WriteLine("The Chief Executive of the company.");
         }
     }
 
+    public class HeadManager1 : CEO, IEmployee
+    {
+        public override void Designation(){
+            Console.WriteLine("The Head Manager 1 of the company.");
+        }
+    }
 }
