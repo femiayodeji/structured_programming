@@ -4,8 +4,7 @@ namespace Composite
 {
     public interface IEmployee
     {
-        string Name { get; set; }
-        void Designation();
+        void ShowDetails();
     }    
     public class CEO : IEmployee
     {
