@@ -39,12 +39,4 @@ namespace Composite
             Console.WriteLine("{0} - {1}.", Name, Designation);
         }
     }
-
-    public class AreaManager : HeadManager1, IEmployee
-    {
-        public override string Name { get; set; }
-        public override void Designation(){
-            Console.WriteLine("{0} - The Area Manager under the HM1", Name);
-        }
-    }
 }
