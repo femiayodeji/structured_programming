@@ -8,9 +8,14 @@ namespace Composite
     }    
     public class CEO : IEmployee
     {
-        public virtual string Name { get; set; }
-        public virtual void Designation(){
-            Console.WriteLine("{0} - The Chief Executive of the company.", Name);
+        private string Name { get; set; }
+        private string Designation = "The Chief Executive of the company";
+        public CEO(string name)
+        {
+            this.Name = name;
+        }
+        public virtual void ShowDetails(){
+            Console.WriteLine("{0} - {1}.", Name, Designation);
         }
     }
 
