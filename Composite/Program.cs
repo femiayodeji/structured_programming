@@ -26,6 +26,10 @@ namespace Composite
             areaManager.Add(agent2);
             areaManager.Add(agent3);
             
+            foreach(IEmployee levelOneEmployee in ceo.Subordinates){
+                levelOneEmployee.ShowDetails();
+            }
+            
         }
     }
 }

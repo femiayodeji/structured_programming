@@ -24,6 +24,7 @@ namespace Composite
         {
             Name = name;
             Designation = designation;
+            Subordinates = new List<IEmployee>();
         }
 
         public void Add(IEmployee employee)
