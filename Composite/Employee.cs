@@ -1,41 +1,50 @@
 using System;
+using System.Collections.Generic;
 
 namespace Composite
 {
     public interface IEmployee
     {
-        IEmployee Head { get;}
+        string Name { get; set;}
+        string Designation { get; set; }
+        List<IEmployee> Subordinates { get; set; }
         void ShowDetails();
-    }    
-    public class CEO : IEmployee
-    {
-        public string Name { get; set; }
-        public string Designation = "The Chief Executive of the company";
-        private IEmployee DirectSuperior = null;
-        public IEmployee Head { get => DirectSuperior;}
-        public CEO(string name)
-        {
-            this.Name = name;
-        }
-        public void ShowDetails(){
-            Console.WriteLine("{0} - {1}.", Name, Designation);
-        }
+        void Add(IEmployee employee);
+        void Remove(IEmployee employee);
+        void ShowSubordinates();
     }
 
-    public class HeadManager : IEmployee
+    public class Employee : IEmployee
     {
         public string Name { get; set; }
-        public string Office { get; set; }
-        public string Designation { get => "Head Manager " +  Office; }
-        private IEmployee DirectSuperior;
-        public IEmployee Head { get => DirectSuperior;}
-        public HeadManager(string name, string office, IEmployee head)
+        public string Designation { get; set; }
+        public List<IEmployee> Subordinates { get; set; }
+
+        public Employee(string name, string designation)
         {
-            this.Name = name;
-            this.Office = office;
-            this.DirectSuperior = head;
+            Name = name;
+            Designation = designation;
         }
-        public void ShowDetails(){
+
+        public void Add(IEmployee employee)
+        {
+            Subordinates.Add(employee);
+        }
+
+        public void ShowSubordinates()
+        {
+            foreach(IEmployee employee in Subordinates){
+                employee.ShowDetails();
+            }
+        }
+
+        public void Remove(IEmployee employee)
+        {
+            Subordinates.Remove(employee);
+        }
+
+        public void ShowDetails()
+        {
             Console.WriteLine("{0} - {1}.", Name, Designation);
         }
     }

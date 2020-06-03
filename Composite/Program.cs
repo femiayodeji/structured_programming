@@ -9,8 +9,8 @@ namespace Composite
         {
             Console.WriteLine("COMPOSITE DESIGN PATTERN\n");
 
-            IEmployee ceo = new CEO("Atoke");
-            ceo.ShowDetails();
+            // IEmployee ceo = new CEO("Atoke");
+            // ceo.ShowDetails();
         }
     }
 }

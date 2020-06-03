@@ -1,0 +1,13 @@
+C:\workspace\c#\structured_programming\Composite\bin\Debug\netcoreapp3.1\Composite.exe
+C:\workspace\c#\structured_programming\Composite\bin\Debug\netcoreapp3.1\Composite.deps.json
+C:\workspace\c#\structured_programming\Composite\bin\Debug\netcoreapp3.1\Composite.runtimeconfig.json
+C:\workspace\c#\structured_programming\Composite\bin\Debug\netcoreapp3.1\Composite.runtimeconfig.dev.json
+C:\workspace\c#\structured_programming\Composite\bin\Debug\netcoreapp3.1\Composite.dll
+C:\workspace\c#\structured_programming\Composite\bin\Debug\netcoreapp3.1\Composite.pdb
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.csprojAssemblyReference.cache
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.csproj.CoreCompileInputs.cache
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.AssemblyInfoInputs.cache
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.AssemblyInfo.cs
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.dll
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.pdb
+C:\workspace\c#\structured_programming\Composite\obj\Debug\netcoreapp3.1\Composite.genruntimeconfig.cache
