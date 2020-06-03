@@ -17,8 +17,15 @@ namespace Composite
             IEmployee agent2 = new Employee("John", "Agent");
             IEmployee agent3 = new Employee("Kwaku", "Agent");
 
+            ceo.Add(headManager1);
+            ceo.Add(headManager2);
+
+            headManager1.Add(areaManager);
+
+            areaManager.Add(agent1);
+            areaManager.Add(agent2);
+            areaManager.Add(agent3);
             
-            ceo.ShowDetails();
         }
     }
 }
