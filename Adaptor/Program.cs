@@ -1,4 +1,5 @@
 ﻿using System;
+using Adaptor.Models;
 
 namespace Adaptor
 {
@@ -6,7 +7,23 @@ namespace Adaptor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("ADAPTOR DESIGN PATTERN\n");
+
+            Console.WriteLine("----------");
+
+            Bird raven = new Bird();
+            PlasticToyDuck toyDuck = new PlasticToyDuck();
+            
+            // wrapper a bird into an adapter 
+            // in order to make a bird behave like a toyduck
+            IToyDuck birdAdapter = new BirdAdapter(raven);
+
+            raven.Fly();
+            raven.MakeSound();
+
+            toyDuck.Squeak();
+
+            birdAdapter.Squeak();
         }
     }
 }
