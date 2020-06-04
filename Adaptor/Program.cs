@@ -11,8 +11,8 @@ namespace Adaptor
 
             Console.WriteLine("----------");
 
-            Bird raven = new Bird();
-            PlasticToyDuck toyDuck = new PlasticToyDuck();
+            Bird raven = new Bird("Raven");
+            PlasticToyDuck toyDuck = new PlasticToyDuck("Duck toy");
             
             // wrapper a bird into an adapter 
             // in order to make a bird behave like a toyduck
