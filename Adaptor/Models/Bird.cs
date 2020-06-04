@@ -10,13 +10,18 @@ namespace Adaptor.Models
 
     public class Bird : IBird
     {
+        private String _name;
+        public Bird(string name)
+        {
+            _name = name;
+        }
         public void Fly()
         {
-            Console.WriteLine("Flying..");
+            Console.WriteLine("{0} - Flying..",_name);
         }
         public void MakeSound()
         {
-            Console.WriteLine("Chirp chirp..");
+            Console.WriteLine("{0} - Chirp chirp..",_name);
         }
     }
 }
