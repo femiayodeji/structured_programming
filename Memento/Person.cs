@@ -4,15 +4,20 @@ namespace Memento
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
+        public MementoPerson Temp { get; set; }
         public Person(string firstName, string lastName)
         {
             FirstName = firstName;
-            LastName = lastName;            
+            LastName = lastName;
+            Temp = new MementoPerson(FirstName,LastName);            
         }
         public void Update(string firstName, string lastName){
             FirstName = firstName;
             LastName = lastName;
+        }
+        public void Revert(){
+            FirstName = Temp.FirstName;
+            LastName = Temp.LastName;
         }
     }
 
@@ -25,7 +30,6 @@ namespace Memento
         {
             FirstName = firstName;
             LastName = lastName;            
-        }
-        
+        }        
     }
 }
