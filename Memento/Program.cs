@@ -11,13 +11,13 @@ namespace Memento
             Console.WriteLine("--------");
 
             Person person = new Person("Atoke","Femi");
-            Console.WriteLine("Initial full name is {0} {1}",person.FirstName,person.LastName);
+            Console.WriteLine("Initial full name is {0} {1}",person.FullName);
 
             person.Update("Adetayo","Oyegbile");
-            Console.WriteLine("Updated full name is {0} {1}",person.FirstName,person.LastName);
+            Console.WriteLine("Updated full name is {0} {1}",person.FullName);
 
             person.Revert();
-            Console.WriteLine("Reverted full name is {0} {1}",person.FirstName,person.LastName);
+            Console.WriteLine("Reverted full name is {0} {1}",person.FullName);
 
         }
     }
