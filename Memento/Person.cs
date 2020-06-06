@@ -4,6 +4,11 @@ namespace Memento
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string FullName {
+            get{
+                return FirstName + " " + LastName;
+            }
+        }
         public MementoPerson Temp { get; set; }
         public Person(string firstName, string lastName)
         {
