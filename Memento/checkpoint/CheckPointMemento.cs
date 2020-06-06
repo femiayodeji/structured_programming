@@ -14,4 +14,9 @@ namespace Memento.CheckPoint{
             CheckPointTime = checkPointTime;
         }
     }    
+
+    public class CheckPointCareTaker
+    {
+        public CheckPointMemento checkPoint { get; set; }
+    }
 }
