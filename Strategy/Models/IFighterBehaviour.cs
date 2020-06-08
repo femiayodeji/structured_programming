@@ -1,6 +1,6 @@
 namespace Strategy.Models
 {
-    public interface IFighterBehaviour
+    public interface IKickBehaviour
     {
          public void kick();
     }
