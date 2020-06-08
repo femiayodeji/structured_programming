@@ -2,11 +2,11 @@ namespace Strategy.Models
 {
     public interface IKickBehaviour
     {
-         public void kick();
+         public void Kick();
     }
 
     public interface IJumpBehaviour
     {
-        public void jump();
+        public void Jump();
     }
 }
