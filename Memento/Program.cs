@@ -1,4 +1,6 @@
 ﻿using System;
+using Memento.checkpoint;
+using Memento.checkPoint;
 
 namespace Memento
 {
@@ -18,6 +20,34 @@ namespace Memento
 
             person.Revert();
             Console.WriteLine("Reverted full name is {0}",person.FullName);
+
+            Console.WriteLine("--------");
+
+            Console.WriteLine("Game Player statistics");
+
+            // step 1
+            PlayerStatistics _statistics = new PlayerStatistics();
+            _statistics.LevelId = 1;
+            _statistics.Score = 100;
+            _statistics.CheckPointTime = DateTime.Now;
+            _statistics.PrintStatistics();
+
+            // step 2
+            CheckPointCareTaker _careTaker = new CheckPointCareTaker();
+            _careTaker.checkPoint = _statistics.CreateCheckPoint(_statistics);
+            Console.WriteLine(Environment.NewLine);
+
+            // step 3
+            _statistics.LevelId = 4;
+            _statistics.Score = 320;
+            _statistics.CheckPointTime = DateTime.Now.Add(new TimeSpan(0, 0, 40, 0));
+            _statistics.PrintStatistics();
+            Console.WriteLine(Environment.NewLine);
+
+            // step 4
+            _statistics.RestoreCheckPoint(_careTaker.checkPoint);
+            _statistics.PrintStatistics();
+            
 
         }
     }
