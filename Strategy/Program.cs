@@ -26,7 +26,7 @@ namespace Strategy
             sango.Jump();
 
             //change behaviour dynamically(runtime)
-            sango.setKickBehaviour(longJump);
+            sango.SetJumpBehaviour(longJump);
             sango.Jump();
         }
     }
