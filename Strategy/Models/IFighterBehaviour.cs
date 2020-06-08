@@ -4,4 +4,9 @@ namespace Strategy.Models
     {
          public void kick();
     }
+
+    public interface IJumpBehaviour
+    {
+        public void jump();
+    }
 }
