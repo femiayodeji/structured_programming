@@ -26,10 +26,10 @@ namespace Strategy.Models
             Console.WriteLine("Default Roll.");
         }
         
-        public void setKickBehaviour(IKickBehaviour kickBehaviour){
+        public void SetKickBehaviour(IKickBehaviour kickBehaviour){
             _kickBehaviour = kickBehaviour;
         }
-        public void setKickBehaviour(IJumpBehaviour jumpBehaviour){
+        public void SetJumpBehaviour(IJumpBehaviour jumpBehaviour){
             _jumpBehaviour = jumpBehaviour;
         }
         public abstract void Display();
