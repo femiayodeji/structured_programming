@@ -17,10 +17,10 @@ namespace Strategy.Models
             Console.WriteLine("Default punch.");
         }        
         public void Kick(){
-            _kickBehaviour.kick();
+            _kickBehaviour.Kick();
         }
         public void Jump(){
-            _jumpBehaviour.jump();
+            _jumpBehaviour.Jump();
         }
         public void Roll(){
             Console.WriteLine("Default Roll.");
