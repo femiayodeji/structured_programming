@@ -1,6 +1,7 @@
 using System;
 
-namespace Memento.CheckPoint{
+namespace Memento.checkPoint
+{
     public class CheckPointMemento
     {
         public int CheckPointLevel { get; set; }
