@@ -2,15 +2,15 @@ namespace Mediator.Models
 {
     public class ConcreteMediator : IMediator
     {
-        public UserA userA { get; set; }
-        public UserB userB { get; set; }
-        public void SendMessage(User caller, string msg)
+        public UserA UserA { get; set; }
+        public UserB UserB { get; set; }
+        public void SendMessage(BaseUser caller, string msg)
         {
-            if(caller == userA){
-                userB.Receive(msg);
+            if(caller == UserA){
+                UserB.Receive(msg);
             }
             else{
-                userA.Receive(msg);
+                UserA.Receive(msg);
             }
         }
     }

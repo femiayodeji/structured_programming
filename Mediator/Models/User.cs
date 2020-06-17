@@ -2,17 +2,17 @@ using System;
 
 namespace Mediator.Models
 {
-    public abstract class User
+    public abstract class BaseUser
     {
-        protected readonly IMediator _mediator;
+        protected IMediator _mediator;
 
-        public User(IMediator mediator)
+        public BaseUser(IMediator mediator)
         {
             _mediator = mediator;
         }
     }
 
-    public class UserA : User
+    public class UserA : BaseUser
     {
         public UserA(IMediator mediator) : base(mediator){}
 
@@ -24,7 +24,8 @@ namespace Mediator.Models
         public void Receive(string msg) => Console.WriteLine("A receive message: " + msg);
     }
 
-    public class UserB : User{
+    public class UserB : BaseUser
+    {
         public UserB(IMediator mediator) : base(mediator){}
 
         public void Send(string msg){
