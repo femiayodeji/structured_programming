@@ -2,6 +2,8 @@ namespace Obverser.Models
 {
     interface ISubject
     {
-        void Changed(Object obj)
+        void Register(IObserver Observer);
+        void Unregister(IObserver Observer);
+        void Notify();
     }
 }
