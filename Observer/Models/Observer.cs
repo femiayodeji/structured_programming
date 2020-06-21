@@ -1,6 +1,6 @@
 using System;
 
-namespace Obverser.Models
+namespace Observer.Models
 {
     public interface IObserver
     {
@@ -11,6 +11,12 @@ namespace Obverser.Models
     {
         public void Changed(Object color){
             Console.WriteLine("Header Color is {0} ", color.ToString());
+        }
+    }
+    public class FooterColor : IObserver
+    {
+        public void Changed(Object color){
+            Console.WriteLine("Footer Color is {0} ", color.ToString());
         }
     }
 }

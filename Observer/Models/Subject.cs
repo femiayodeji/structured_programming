@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Obverser.Models
+namespace Observer.Models
 {
     public interface ISubject
     {
@@ -22,7 +22,7 @@ namespace Obverser.Models
         }       
 
         private HashSet<IObserver> _observers = new HashSet<IObserver>();
-
+        
         public void Register(IObserver observer) => _observers.Add(observer);
 
         public void Unregister(IObserver observer) => _observers.Remove(observer);
